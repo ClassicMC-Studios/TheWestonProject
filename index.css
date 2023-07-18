@@ -1,1 +1,23 @@
-
+body{
+    background-color: black;
+}
+*{
+    font-family: sans-serif;
+    color: white;
+}
+.fn{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%);
+    color: rgb(199, 199, 199);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    
+}
+.align{
+    text-align: center;
+}
